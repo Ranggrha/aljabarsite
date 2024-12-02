@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="belajar.css" />
+  <title>Turunan Fungsi Aljabar</title>
+</head>
+
+<body class="belajar">
+  <header>
+    <h1>ALJABAR site</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="belajar_"><a href="belajar.html">Belajar</a></li>
+        <li><a href="hitung.html">Hitung</a></li>
+        <li><a href="tim.html">Squad</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="materi">
+      <h2>Pengertian Turunan Fungsi Aljabar</h2>
+      <p>Turunan adalah pengukuran terhadap bagaimana fungsi berubah seiring perubahan
+        nilai yang dimasukkan, proses dalam menemukan turunan disebut diferensiasi.
+        Turunan fungsi aljabar adalah fungsi yang menurunkan pangkat dari fungsi
+        sebelumnya sesuai aturan yang sudah ditetapkan.
+        Biasanya, turunan aljabar tidak hanya bisa menurunkan dalam satu tingkat saja,
+        tetapi bisa menurunkan dua, tiga, empat tingkat dan seterusnya.
+      </p>
+
+      <h2>Rumus-Rumus Turunan Fungsi Aljabar</h2>
+      <p><img src="rumus-rumus diferensial.jpg" alt=""></p>
+
+      <h2>Contoh Turunan Fungsi</h2>
+      <p>
+        Misalkan kita memiliki fungsi <code>f(x) = 2x^2 + 3x</code>.
+        Turunan pertama dari fungsi ini adalah <code>f'(x) = 4x + 3</code>.
+        Ini menunjukkan bagaimana fungsi <code>f(x)</code> berubah seiring
+        perubahan nilai <code>x</code>.
+      </p>
+
+      <h2>Aturan-Aturan Turunan Aljabar</h2>
+      <p>
+        Berikut adalah beberapa aturan dasar dalam turunan fungsi aljabar:
+      </p>
+
+      <h3>1. Aturan Turunan Pangkat</h3>
+      <p>
+        Jika <code>f(x) = x^n</code>, maka turunannya adalah:
+        <code>f'(x) = n*x^(n-1)</code>.
+      </p>
+      <p>
+        Contoh: <code>f(x) = x^3</code> memiliki turunan
+        <code>f'(x) = 3x^2</code>.
+      </p>
+
+      <h3>2. Aturan Jumlah</h3>
+      <p>
+        Jika <code>f(x) = g(x) + h(x)</code>, maka turunannya adalah:
+        <code>f'(x) = g'(x) + h'(x)</code>.
+      </p>
+      <p>
+        Contoh: Jika <code>f(x) = 3x^2 + 5x</code>, maka turunannya adalah:
+        <code>f'(x) = 6x + 5</code>.
+      </p>
+
+      <h3>3. Aturan Perkalian</h3>
+      <p>
+        Jika <code>f(x) = g(x) * h(x)</code>, maka turunannya adalah:
+        <code>f'(x) = g'(x) * h(x) + g(x) * h'(x)</code>.
+      </p>
+      <p>
+        Contoh: Jika <code>f(x) = x^2 * (3x + 2)</code>, maka turunannya
+        adalah:
+        <code>f'(x) = 2x * (3x + 2) + x^2 * 3 = 6x^2 + 4x + 3x^2 = 9x^2 +
+            4x</code>.
+      </p>
+
+      <h3>4. Aturan Pembagian</h3>
+      <p>
+        Jika <code>f(x) = g(x) / h(x)</code>, maka turunannya adalah:
+        <code>f'(x) = (g'(x) * h(x) - g(x) * h'(x)) / (h(x))^2</code>.
+      </p>
+      <p>
+        Contoh: Jika <code>f(x) = (x^2 + 1) / (x - 1)</code>, maka turunannya
+        adalah:
+        <code>f'(x) = ((2x) * (x - 1) - (x^2 + 1) * 1) / (x - 1)^2 = (2x^2 - 2x -
+            x^2 - 1) / (x - 1)^2 = (x^2 - 2x - 1) / (x - 1)^2</code>.
+      </p>
+
+      <h3>5. Aturan Rantai</h3>
+      <p>
+        Jika <code>f(x) = g(h(x))</code>, maka turunannya adalah:
+        <code>f'(x) = g'(h(x)) * h'(x)</code>.
+      </p>
+      <p>
+        Contoh: Jika <code>f(x) = (3x + 2)^4</code>, maka turunannya adalah:
+        <code>f'(x) = 4(3x + 2)^3 * 3 = 12(3x + 2)^3</code>.
+      </p>
+      <h2>Contoh Soal</h2>
+      <p>1. Turunan pertama dari fungsi f(x) = 3x^4 + 2x^2 - 5x adalah ...</p>
+      <p>Jawaban:</p>
+      <p>f(x) = ax^n ⇒ f'(x) = a.n.x^n-1</p>
+      <p> f(x) = 3x^4 + 2x^2 - 5x</p>
+      <p>f'(x) = 4.3x^4-1 + 2.2x^2-1 - 1.5x^1-1</p>
+      <p>f'(x) = 12x^3 + 4x^1 - 5x^0</p>
+      <p>f'(x) = 12x^3 + 4x - 5</p>
+
+      <p>2. Turunan dari f(x) = x^3 adalah .</p>
+      <p>Jawaban:</p>
+      <p>f(x) = x^n ⇒ f'(x) = n.x^n-1</p>
+      <p>f(x) = x^3</p>
+      <p>f'(x) = 3x^3-1</p>
+      <p>f'(x) = 3x^2</p>
+
+      <p>3. Carilah turunan f'(x) dari fungsi f(x) = 3x^2 + 7x!</p>
+      <p>Jawaban:</p>
+      <p>f(x) = ax^n ⇒ f'(x) = a.n.x^n-1</p>
+      <p>f'(x) = 2.3x^2-1 + 1.7x^1-1</p>
+      <p>f'(x) = 6x^2 + 7x^0</p>
+      <p>f'(x) = 6x^2 + 7</p>
+
+      <p>4. Carilah turunan dari y = (2x + 1) 2x^2!</p>
+      <p>Jawaban:</p>
+      <p>y = U . V ⇒ y' = UV' + U'V</p>
+      <p>U = 2x + 1</p>
+      <p>U' = 2</p>
+      <p>V = 2x^2</p>
+      <p>V' = 2.2x2-1</p>
+      <p> = 4x^1</p>
+      <p> = 4x</p>
+      <p>y' = (2x - 1)(4x) + (2)(2x^2)</p>
+      <p>y' = 8x^2 - 4x + 4x^2</p>
+      <p>y' = 12x^2 - 4x</p>
+
+      <p>5. Turunan kedua dari fungsi aljabar f(x) = x^3 - 2x^2 + 3x adalah ...</p>
+      <p>Jawaban:</p>
+      <p>f'(x) = 3x^3-1 - 2.2x^2-1 + 1.3x^1-1</p>
+      <p>f'(x) = 3x^2 - 4x^1 + 3x^0</p>
+      <p>f'(x) = 3x^2 - 4x + 3</p>
+      <p>f''(x) = 2.3x^2-1 - 1.4x^1-1 + 0</p>
+      <p>f''(x) = 6x^1 - 4x^0</p>
+      <p>f''(x) = 6x - 4</p>
+
+
+      <h2>Kesimpulan</h2>
+      <p>
+        Turunan membantu kita untuk memahami seberapa cepat suatu fungsi
+        berubah. Ini adalah konsep dasar dalam kalkulus yang banyak digunakan
+        dalam berbagai bidang ilmu, seperti fisika dan ekonomi.
+      </p>
+    </div>
+  </main>
+</body>
+<footer>
+  <p>&copy; 2024 Kelompok 4 Kelas B</p>
+</footer>
+
+</html>
